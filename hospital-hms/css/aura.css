@@ -1,0 +1,17 @@
+/* Aura Design System Styles */
+:root {
+    --aura-primary: #6366f1;
+    --aura-secondary: #8b5cf6;
+    --aura-accent: #ec4899;
+    --aura-bg: #0f172a;
+    --aura-surface: #1e293b;
+    --aura-text: #f1f5f9;
+}
+
+.aura-glow {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+}
+
+.aura-gradient {
+    background: linear-gradient(135deg, var(--aura-primary), var(--aura-secondary));
+}
